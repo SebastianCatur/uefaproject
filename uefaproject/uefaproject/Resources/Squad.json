@@ -1,0 +1,152 @@
+{
+    "squadName": "Barcelona",
+    "squadCrest": "ImageUrl",
+    "roundNumber": 16,
+    "roles":[
+        {
+            "name": "Goalkeepers",
+            "players": [
+                {
+                    "playerName": "Messi",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Goalkeepers",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Ronaldo",
+                    "country": "Country",
+                    "points": 20,
+                    "playerRole": "Goalkeepers",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Hagi",
+                    "country": "Country",
+                    "points": 40,
+                    "playerRole": "Goalkeepers",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Goalkeepers",
+                    "playerImage": "imageUrl"
+                }
+            ]
+        },
+        {
+            "name": "Defenders",
+            "players": [
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Defenders",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Defenders",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Defenders",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Defenders",
+                    "playerImage": "imageUrl"
+                }
+            ]
+        },
+        {
+            "name": "Midfieldiers",
+            "players": [
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Midfieldiers",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Midfieldiers",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Midfieldiers",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Midfieldiers",
+                    "playerImage": "imageUrl"
+                }
+            ]
+        },
+        {
+            "name": "Forwards",
+            "players": [
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Forwards",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Forwards",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Forwards",
+                    "playerImage": "imageUrl"
+                },
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Forwards",
+                    "playerImage": "imageUrl"
+                }
+            ]
+        },
+        {
+            "name": "Coach",
+            "players": [
+                {
+                    "playerName": "Player Name",
+                    "country": "Country",
+                    "points": 24,
+                    "playerRole": "Coach",
+                    "playerImage": "imageUrl"
+                }
+            ]
+        }
+    ]
+}
+

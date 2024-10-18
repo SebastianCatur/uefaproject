@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		34930FC12CC2541400EFE2B6 /* ScalingHeaderScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 34930FC02CC2541400EFE2B6 /* ScalingHeaderScrollView */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		34930F702CC2419C00EFE2B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,38 @@
 		34930F792CC2419C00EFE2B6 /* uefaprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uefaprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		34930FA02CC24D9100EFE2B6 /* Exceptions for "uefaproject" folder in "uefaprojectTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Fonts/Champions-Bold.ttf",
+			);
+			target = 34930F6E2CC2419C00EFE2B6 /* uefaprojectTests */;
+		};
+		34930FA12CC24D9100EFE2B6 /* Exceptions for "uefaproject" folder in "uefaprojectUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Fonts/Champions-Bold.ttf",
+			);
+			target = 34930F782CC2419C00EFE2B6 /* uefaprojectUITests */;
+		};
+		34930FA32CC24DB400EFE2B6 /* Exceptions for "uefaproject" folder in "uefaproject" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 34930F5E2CC2419200EFE2B6 /* uefaproject */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		34930F612CC2419200EFE2B6 /* uefaproject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				34930FA32CC24DB400EFE2B6 /* Exceptions for "uefaproject" folder in "uefaproject" target */,
+				34930FA02CC24D9100EFE2B6 /* Exceptions for "uefaproject" folder in "uefaprojectTests" target */,
+				34930FA12CC24D9100EFE2B6 /* Exceptions for "uefaproject" folder in "uefaprojectUITests" target */,
+			);
 			path = uefaproject;
 			sourceTree = "<group>";
 		};
@@ -52,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34930FC12CC2541400EFE2B6 /* ScalingHeaderScrollView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,7 @@
 				34930F612CC2419200EFE2B6 /* uefaproject */,
 				34930F722CC2419C00EFE2B6 /* uefaprojectTests */,
 				34930F7C2CC2419C00EFE2B6 /* uefaprojectUITests */,
+				34930FBF2CC2541400EFE2B6 /* Frameworks */,
 				34930F602CC2419200EFE2B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +125,13 @@
 				34930F792CC2419C00EFE2B6 /* uefaprojectUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		34930FBF2CC2541400EFE2B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +154,7 @@
 			);
 			name = uefaproject;
 			packageProductDependencies = (
+				34930FC02CC2541400EFE2B6 /* ScalingHeaderScrollView */,
 			);
 			productName = uefaproject;
 			productReference = 34930F5F2CC2419200EFE2B6 /* uefaproject.app */;
@@ -195,6 +238,9 @@
 			);
 			mainGroup = 34930F562CC2419200EFE2B6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				34930FBE2CC252B500EFE2B6 /* XCRemoteSwiftPackageReference "ScalingHeaderScrollView" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 34930F602CC2419200EFE2B6 /* Products */;
 			projectDirPath = "";
@@ -398,6 +444,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"uefaproject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uefaproject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +473,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"uefaproject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uefaproject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -552,6 +600,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34930FBE2CC252B500EFE2B6 /* XCRemoteSwiftPackageReference "ScalingHeaderScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ScalingHeaderScrollView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34930FC02CC2541400EFE2B6 /* ScalingHeaderScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34930FBE2CC252B500EFE2B6 /* XCRemoteSwiftPackageReference "ScalingHeaderScrollView" */;
+			productName = ScalingHeaderScrollView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34930F572CC2419200EFE2B6 /* Project object */;
 }

@@ -4,21 +4,37 @@
 //
 //  Created by Sebastian Catur on 18.10.2024.
 //
-
 import SwiftUI
 
 struct ContentView: View {
+    @State var selection: String? = nil
+    @StateObject var themeManager = ThemeManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                NavigationLink("UCL") {
+                    ClubScreenView(viewModel: .init())
+                    .environmentObject(themeManager)
+                }
+                .simultaneousGesture(TapGesture().onEnded({
+                    themeManager.setTheme(UCLTheme())
+                }))
+                
+                NavigationLink("UEL") {
+                    ClubScreenView(viewModel: .init())
+                    .environmentObject(themeManager)
+                    
+                }
+                .simultaneousGesture(TapGesture().onEnded({
+                    themeManager.setTheme(UELTheme())
+                }))
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(ThemeManager())
 }
